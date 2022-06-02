@@ -24,6 +24,7 @@
 
 .header__icon {
     margin-right: 8px;
+    cursor: pointer;
 }
 .header__inputButton {
      width: 50px !important; 
@@ -35,9 +36,11 @@
 .header__icons {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .header__input > input {
     flex: 1;
     border: none;
+    outline: none;
 }
